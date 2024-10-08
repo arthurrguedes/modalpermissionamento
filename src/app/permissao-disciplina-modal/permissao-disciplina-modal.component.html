@@ -1,0 +1,11 @@
+<div class="modal-background" *ngIf="isOpen">
+    <div class="modal">
+      <h2>Permissão de Disciplina</h2>
+      <p>Deseja conceder permissão para a disciplina <strong>{{ disciplina }}</strong>?</p>
+      <div class="modal-actions">
+        <button (click)="concederPermissao()">Conceder</button>
+        <button (click)="fecharModal()">Cancelar</button>
+      </div>
+    </div>
+  </div>
+  
